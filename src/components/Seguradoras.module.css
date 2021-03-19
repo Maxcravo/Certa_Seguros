@@ -1,0 +1,56 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.content {
+    background-image: url("../imagens/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+
+    max-width: 100%;
+    min-height: max-content;
+
+    margin-bottom: 5%;
+}
+
+.content .title {
+    color: white;
+    text-align: center;
+    font-size: 29px;
+    padding-top: 1.5%;
+    padding-bottom: 1.7%;
+}
+
+.content .logos .list {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-left: 1.7%;
+}
+
+.content .logos .list li {
+    display: inline;
+    padding-right: 1%;
+}
+
+.content .logos .list .bradesco {
+    max-width: 8.5%;
+}
+
+.content .logos .list .hdi {
+    max-width: 8.5%;
+}
+
+.content .logos .list .porto {
+    max-width: 8.5%;
+}
+
+.content .logos .list .sompo {
+    max-width: 8.5%;
+}
+
+.content .logos .list .sulamericana {
+    max-width: 8.5%;
+}

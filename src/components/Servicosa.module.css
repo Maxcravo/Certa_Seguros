@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 98vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title3 {
+    font-size: 48px;
+
+    color: #2d2d2e;
+
+    padding-bottom: 4%;
+}
+
+.div_title {
+    width: 22%;
+    height: min-content;
+    margin-left: 8%;
+
+    border-bottom: 9px solid #99161d;
+    
+    align-self: flex-start;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+
+    width: 100%;
+}
+
+.card_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    cursor: pointer;
+    
+    width: 100%;
+}
+
+
+.card_certa {
+    /* min-width: 20em; */
+    width: 550px;
+    
+    position: relative;
+    display: flex;
+
+    border-top: rgb(158, 156, 156);
+
+    margin: 5% auto;
+    /* margin-left: 5%; */
+    color: rgb(160, 41, 51);
+    box-shadow: 0px 2px 3px 2px rgb(158, 156, 156);
+
+    text-align: center;
+    font-size: 18px;
+}
+
+.right{
+    margin-top: 0.3%;
+}
+
+.card_certa .card_body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    width: 550px;
+}
+
+#header, #title {
+    background-color: white;
+    border-color: white;
+}
+
+.equipa_img {
+    position: relative;
+    display: flex;
+
+    padding-left: 44.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+
+    max-width: 55.9%;
+}
+
+.resid_img {
+    position: relative;
+    display: flex;
+
+    padding-left: 45.8%;
+    padding-top: 2%;
+    padding-bottom: 1.5%;
+
+    max-width: 54%;
+}
+
+.saude_img {
+    position: relative;
+    display: flex;
+
+    padding-left: 44.5%;
+    max-width: 56.7%;
+}
+
+.condo_img {
+    position: relative;
+    display: flex;
+
+    padding-left: 45%;
+    padding-top: 1.7%;
+
+    max-width: 55%;
+}
+
+.empre_img {
+    position: relative;
+    display: flex;
+
+    padding-left: 45.7%;
+    padding-top: 1.5%;
+
+    max-width: 55.9%;
+}
+
+.fiança_img {
+    position: relative;
+    display: flex;
+
+    padding-left: 43%;
+    padding-top: 0.8%;
+
+    max-width: 54.8%;
+}
+
+.escrit_img {
+    position: relative;
+    display: flex;
+
+    padding-left: 44.5%;
+    padding-top: 0.1%;
+    padding-bottom: 0.5%;
+
+    max-width: 56%;
+}
+
+.vida_img {
+    position: relative;
+    display: flex;
+
+    padding-top: 0%;
+    padding-left: 45.8%;
+    padding-bottom: 2%;
+
+    max-width: 54.8%;
+}
+
+.carro_img {
+    position: relative;
+    display: flex;
+
+    padding-left: 45%;
+    padding-top: 0.5%;
+
+    max-width: 55.8%;
+}
+
+.aluguel_img {
+    position: relative;
+    display: flex;
+
+    padding-top: 0.4%;
+    padding-left: 45%;
+
+    max-width: 55.3%;
+} 
+
+.button {
+    width: 365px;
+    margin-bottom: 40px;
+}
+
+.button .button_serviços {
+    margin-top: 6%;
+    
+    background-color:  #C72929 ;
+    box-shadow: 0px 5px 10px rgb(70, 28, 28);
+
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    
+
+    display: inline;
+}
+
+.button .botao {
+    cursor: crosshair;
+    text-decoration: none;
+}
+
+.button .button_serviços .quadrado {
+    background-color: #943535;
+
+    border-radius: 20px 0px 0px 20px;
+
+    min-width: 20%;
+    min-height: 100%;
+
+    padding-right: 5%;
+
+    float: left;    
+}
+
+.button .button_serviços .icone{
+    color: #a79495;
+
+    border-radius: 20px 0px 0px 20px;
+
+    min-width: 2%;
+    
+    padding-top: 18%;
+    padding-right: 5%;
+    padding-bottom: 18%;
+    padding-left: 36%;
+    margin: 3%;
+    
+    float: left;
+}
+
+
+.button_serviços{
+    height: 59.81px;
+    width:60%;
+    padding: 0%;
+}
+
+.button .button_serviços p {
+    vertical-align: middle;
+
+    font-size: 19px;
+    text-align: center;
+
+    color: white;
+    text-decoration: none;
+    position: relative;
+
+    top: 17px;
+}
+
+.button_serviços:hover .quadrado {
+    background-color: #bb7074;
+    border: none;
+    transition: 0.2s;
+}
+
+.button_serviços:hover {
+    background-color: #a74f54;
+    font-weight: bolder;
+    border: none;
+    transition: 0.2s;
+}
+
+
+
+
+@media(max-width:1122px){
+    .right{
+        margin-top: -2.5%;
+    }
+}
+
+@media(max-width:730px){
+    .card_certa{
+        width: 20em;
+    }
+
+    .button{
+        position: relative;
+    }
+}
+
+@media(max-width:400px){
+    .card_certa{
+        min-width: 20em;
+        font-size: 12px;
+    }
+
+    .right{
+        width: 17em;
+    }
+}
+
+@media(max-width:415px){
+    .button{
+        width: 300px;
+    }
+    .button .button_serviços p{
+        padding-top: 0%;
+        font-size: 17px;
+    }
+}
+
+@media(max-width:360px){
+    .button{
+        width: 200px;
+        
+        position: relative;
+        font-size: 13px;
+    }
+    .button .button_serviços p {   
+        font-size: 14px;
+        position: relative;
+        top: 10px;
+        
+    }
+}

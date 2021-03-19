@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-color: rgba(229, 229, 229, 1);
+    
+}
+
+.paragrafo1{
+    color: black;
+}
+
+
+.textos,h1{
+    color: black;
+    text-align: center;
+    padding-top: 0.8em;
+}
+
+.textos, p{
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+}
+
+
+
+
+.form_img{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.campo,input,textarea,.botao{
+    position: relative;
+    border: 0.2px solid #ccc;
+    border-radius: 0.7em;
+    width: 100%;
+    padding: 1%;
+    
+}
+
+input,textarea{
+    box-shadow: 0px 4px 4px rgba(104, 102, 102, 0.28);
+
+}
+
+
+
+.caixa{
+    margin-bottom: 0.8em;
+}
+
+.campo{
+    margin-top: 4%;
+    left: 4%;
+    width: 42%; 
+    border: none;
+ 
+}
+
+.botao{
+    
+    color: white;
+    background-color: #9A1111;
+    left: 32%;
+    border-radius: 4px;
+    width: 40%;
+    margin-top: 5%;
+    
+}
+
+.campo textarea{
+    width: 100%; height: 8em;
+}
+
+.picture_body{
+    position: relative;
+    left: 3em;
+    width: 40%;
+
+}
+
+
+.botao_subir{
+    position: relative;
+    left: 84%;
+    cursor: pointer;
+    width: 7%;
+    bottom: 3em;
+}
+
+@media(max-width:800px){
+    .picture_body{
+      display: none;
+    }
+    .campo{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        left: 0%; 
+    }
+
+    .input,textarea,.botao{
+        display: block;
+    }
+
+    form{
+        width: 80%;
+    }
+    .botao_subir{
+        width: 10%;
+        bottom: 0.1em;
+     }
+}
+
+@media(max-width:560px){
+    .botao_subir{
+       width: 10%;
+       bottom: 0.1em;
+    }
+
+}

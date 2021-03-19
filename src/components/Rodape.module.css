@@ -1,0 +1,57 @@
+
+.cordefundo p{
+  color: white;
+  top: 1.1em;  
+} 
+
+.cordefundo h4{
+  text-align: center;
+  color: white;
+  top: 0.2em;
+  padding-top: 2%;
+}
+
+.cordefundo{
+  background: rgb(33, 0, 0 );
+}
+
+.imagens_rodape li{
+  display: inline-block;
+  bottom: 2.6em;
+}
+
+.imagens_rodape {
+  display:flex;
+  margin-left: 5%;
+}
+
+.contato_rodape{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2%;
+
+}
+
+
+
+@media(min-width:340px){
+  .contato_rodape {
+    justify-content: center;
+  }
+  .icone{
+    margin-left: 5%;
+  }
+}
+
+ @media(max-width:550px){
+  .icone{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+} 
+
