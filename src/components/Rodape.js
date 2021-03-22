@@ -15,7 +15,7 @@ export default function Rodapepage() {
       <div className={styles.icone}>
         <ul className={styles.imagens_rodape}>
           <li>
-            <a href=""> <img alt='whatssap_image' className={styles.what} src={whats}></img> </a>
+            <a href="https://wa.me/5521983252114"> <img alt='whatssap_image' className={styles.what} src={whats}></img> </a>
           </li> 
           <li>
             <a href="https://www.facebook.com/certacorretora/ "> <img  alt='facebook_img' className={styles.faceimg} src={face}></img> </a>
