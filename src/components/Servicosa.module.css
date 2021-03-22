@@ -272,9 +272,6 @@
     transition: 0.2s;
 }
 
-
-
-
 @media(max-width:1122px){
     .right{
         margin-top: -2.5%;
@@ -288,6 +285,11 @@
 
     .button{
         position: relative;
+    }
+
+    .card_body{
+        max-width: fit-content;
+        font-size: 14px;
     }
 }
 
@@ -326,3 +328,4 @@
         
     }
 }
+

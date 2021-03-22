@@ -54,3 +54,31 @@
 .content .logos .list .sulamericana {
     max-width: 8.5%;
 }
+
+
+@media(max-width:450px){
+
+    .content .logos .list .bradesco {
+        max-width: 12.5%;
+    }
+    
+
+    .content .logos .list .hdi {
+        max-width: 12.5%;
+    }
+    
+    .content .logos .list .porto {
+        max-width: 12.5%;
+    }
+    
+    .content .logos .list .sompo {
+        max-width: 12.5%;
+    }
+    
+    .content .logos .list .sulamericana {
+        max-width: 12.5%;
+    }
+
+
+
+}
