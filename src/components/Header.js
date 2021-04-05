@@ -11,7 +11,7 @@ export default function Header() {
                 <div className={Styles.left} >
                     <img src={Logo} alt="Logo" className={Styles.logo}></img>
                     <p className={Styles.slogan} >Negócio certo é na Certa Corretora de Seguros</p>
-                    <p className={Styles.text}>"Certa Corretora de Seguros Ltda, é uma corretora consolidada no mercado segurador, contando com uma equipe especializada em excelência em atendimento a clientes."<br/>SUSEP 1020057334</p>
+                    <p className={Styles.text}>"Certa Corretora de Seguros Ltda, é uma corretora consolidada no mercado segurador, contando com uma equipe especializada em excelência em atendimento a clientes."<br/>SUSEP 202007421</p>
                     <div className={Styles.button}>
                         <a href="#title2" className={Styles.botao}>
                             <button className={Styles.button_serviços} variant="banner">                           
