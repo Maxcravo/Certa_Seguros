@@ -13,7 +13,7 @@ export default function Quem_somos() {
             <div className={Styles.div_title2_quemsomos}>
                 <h1 className={Styles.title2}>Nosso objetivo</h1>
             </div>
-            <p className={Styles.text3}>Estabelecer parcerias com nossos clientesnas contratações junto com as companhias de seguros maiores e mais solicitadas no mercado - que oferecem custos adequados, efetiva liquidez e comprovada agilidade no pagamento do sinistro.</p>
+            <p className={Styles.text3}>Estabelecer parcerias com nossos clientes nas contratações junto com as companhias de seguros maiores e mais solicitadas no mercado - que oferecem custos adequados, efetiva liquidez e comprovada agilidade no pagamento do sinistro.</p>
         </div>
     )
 }
