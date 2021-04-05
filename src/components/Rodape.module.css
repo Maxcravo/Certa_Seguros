@@ -59,14 +59,26 @@
   }
 }
 
- @media(max-width:550px){
+  @media(max-width:550px){
   .icone{
     display:flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
+
+  .cordefundo h4{
+    
+    font-size: 11px;
+  }
+
+  .cordefundo p{
+    font-size: 11px;
+  } 
+  
 } 
+
 
 
 /* .cordefundo p{
