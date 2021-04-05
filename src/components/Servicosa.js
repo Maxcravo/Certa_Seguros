@@ -33,7 +33,7 @@ export default function Serviços() {
                                 <Accordion.Collapse eventKey="0">
                                     <Card.Body className={Styles.card_body}>
                                         <p className={Styles.body_texto}>
-                                            A certa seguros, trabalha com as melhores seguradoras e operadoras de planos de saúde do país. Temos sempre uma opção com ampla
+                                            A Certa Seguros trabalha com as melhores seguradoras e operadoras de planos de saúde do país. Temos sempre uma opção com ampla
                                             rede de atendimento de hospitais, consultórios e laboratórios de ponta, e um orçamento que cabe no seu bolso.
                                         </p>
                                     </Card.Body>
@@ -50,8 +50,8 @@ export default function Serviços() {
                                 <Accordion.Collapse eventKey="1">
                                     <Card.Body className={Styles.card_body}>
                                         <p className={Styles.body_texto}>
-                                            Pensando em todas as famílias que vivem em um condomínio e seu sindico, oferecemos o seguro para condomínios.
-                                            Nesta modalidade as coberturas vão muito além das básicas (incêndio, raios, aeronaves, explosão...), cobrimos danos elétricos, responsabilidade civil do condomínio, responsabilidade civil da guarda de veículos, responsabilidade civil de portões e cancelas, responsabilidade civil do sindico, roubo, assistência 24 horas entre outras.
+                                            Pensando em todas as famílias que vivem em um condomínio e seu síndico, oferecemos o seguro para condomínios.
+                                            Nesta modalidade as coberturas vão muito além das básicas (incêndio, raios, aeronaves, explosão...), cobrimos danos elétricos, responsabilidade civil do condomínio, responsabilidade civil da guarda de veículos, responsabilidade civil de portões e cancelas, responsabilidade civil do síndico, roubo, assistência 24 horas entre outras.
                                             Consulte-nos, mostre a necessidade do seu condomínio e teremos prazer em lhe mostrar o produto perfeito para os seus condôminos. 
                                         </p>
                                     </Card.Body>
@@ -72,7 +72,7 @@ export default function Serviços() {
                                             Proteja sua empresa de imprevistos e riscos.
                                             Coberturas: incêndio, raio, explosões, vendaval, fumaça, danos elétricos, roubo, lucros cessantes, valores, vidros e anúncios luminosos, equipamentos eletrônicos entre outros.
                                             Fazendo um seguro empresarial, sua empresa pode contar com assistência 24 horas.
-                                            Entre em contato conosco, solicite uma cotação, temos a total felicidade em atende-lo e oferecer um seguro que cabe na sua empresa.
+                                            Entre em contato conosco, solicite uma cotação, temos a total felicidade em atendê-lo e oferecer um seguro que cabe na sua empresa.
                                         </p>
                                     </Card.Body>
                                 </Accordion.Collapse>
@@ -89,8 +89,8 @@ export default function Serviços() {
                                     <Card.Body className={Styles.card_body}>
                                         <p className={Styles.body_texto}>
                                             Conseguir um fiador não é tão fácil, principalmente quando você se muda para uma cidade diferente ou não tem parentes e amigos que possam ajudar.
-                                            A solução é o Seguro Fiança locatícia, com ele, fica mais fácil alugar um imóvel residencial ou comercial.
-                                            O Seguro Fiança, substitui com vantagens o fiador ou caução, pois é a única garantia que paga ao proprietário do imóvel os valores de alugueis e encargos atrasados antes mesmo da decretação do despejo. Garante ao proprietário do imóvel o recebimento do aluguel e dos encargos vencidos caso o inquilino não pague.
+                                            A solução é o Seguro Fiança locatícia. Com ele, fica mais fácil alugar um imóvel residencial ou comercial.
+                                            O Seguro Fiança substitui com vantagens o fiador ou caução, pois é a única garantia que paga ao proprietário do imóvel os valores de alugueis e encargos atrasados antes mesmo da decretação do despejo. Garante ao proprietário do imóvel o recebimento do aluguel e dos encargos vencidos caso o inquilino não pague.
                                             Para o inquilino, é o fim do constrangimento de buscar um fiador, além de uma série de vantagens, como mão de obra gratuita para pequenos reparos ou consertos no imóvel alugado.
                                             Para a imobiliária, representa redução de custos e facilidade operacional: a análise do cadastro do inquilino é feita pela Porto Seguro, eliminando assim trabalho e custo.
                                             Entre em contato conosco e faremos um excelente negócio!
@@ -109,8 +109,8 @@ export default function Serviços() {
                                 <Accordion.Collapse eventKey="4">
                                     <Card.Body className={Styles.card_body}>
                                         <p className={Styles.body_texto}>                                            
-                                            cuide de quem você ama e tenha benefícios em vida
-                                            Aproveitar os bons momentos ao lado de quem é especial para você é uma das melhores coisas da vida. Para isso, ter um seguro de vida ou acidentes pessoais é essencial
+                                            Cuide de quem você ama e tenha benefícios em vida.
+                                            Aproveitar os bons momentos ao lado de quem é especial para você é uma das melhores coisas da vida. Para isso, ter um seguro de vida ou acidentes pessoais é essencial.
                                         </p>
                                     </Card.Body >
                                 </Accordion.Collapse>
@@ -148,7 +148,7 @@ export default function Serviços() {
                                 <Accordion.Collapse eventKey="6">
                                     <Card.Body className={Styles.card_body}>
                                         <p className={Styles.body_texto}>
-                                            Deu duro para construir seu próprio negócio e quer cuidar bem dele? Com o seguro para escritórios e consultórios você pode ir para casa sossegado que seu patrimônio está garantido. A cobertura vai desde a mais simples (sem necessidade de vistoria) até a mais completa, oferecendo cobertura a incêndios, raios, explosões, despesas fixas, despesas de recomposição, danos elétricos, perda de renda liquida, roubo entre outros.
+                                            Deu duro para construir seu próprio negócio e quer cuidar bem dele? Com o seguro para escritórios e consultórios você pode ir para casa sossegado que seu patrimônio está garantido. A cobertura vai desde a mais simples (sem necessidade de vistoria) até a mais completa, oferecendo cobertura a incêndios, raios, explosões, despesas fixas, despesas de recomposição, danos elétricos, perda de renda líquida, roubo entre outros.
                                             E assim como na sua residência, pensamos que eventualidades acontecem e oferecemos chaveiro, eletricista, assistência hidráulica, mão de obra especializada, limpeza entre outros.
                                             Garanta a sua tranquilidade ao sair do seu negócio e solicite uma cotação. 
                                         </p>
@@ -167,9 +167,9 @@ export default function Serviços() {
                                     <Card.Body className={Styles.card_body}>
                                         <p className={Styles.body_texto}>
                                             Sempre que procuramos nos especializar e modernizar nos vemos recorrendo ao uso de novos equipamentos, por esta razão a Certa se preocupou em oferecer um seguro para esses equipamentos que nos ajudam a nos manter no topo.
-                                            Se tranquilize com seu maquinário, a certa tem a cobertura que você precisa.
+                                            Se tranquilize com seu maquinário, a Certa tem a cobertura que você precisa.
                                             Exemplos de equipamentos cobertos: tratores, colheitadeiras; Equipamentos industriais; Escavadeiras e outros equipamentos da área de construção; Equipamentos médicos para uso em hospitais e clinicas.
-                                            A cobertura desses é por meio de indenização, seja por perda ou danos dos equipamentos (previamente descritos na apólice) que tenham sido por causa externa; roubo ou furto qualificado. Contate-nos e descubra quais coberturas adicionais podemos oferecer
+                                            A cobertura desses é por meio de indenização, seja por perda ou danos dos equipamentos (previamente descritos na apólice) que tenham sido por causa externa; roubo ou furto qualificado. Contate-nos e descubra quais coberturas adicionais podemos oferecer.
                                             Seu equipamento não está listado? Entre em contato e veja se dispomos de um seguro que lhe atenda.
                                             É da área agrícola, pecuária, aquícola ou florestal? Temos vantagens para você, entre em contato e descubra.
                                         </p>
@@ -190,7 +190,7 @@ export default function Serviços() {
                                             Seu patrimônio protegido e sua família com a certeza de que o lar não faltará.
                                             Cobrem mais de 15 eventos, incluindo danos elétricos e roubo.
                                             Sempre oferecemos a facilidade da escolha, seja por preço ou por cobertura, a Certa Seguros sempre terá um produto que lhe atende.
-                                            Dentre os diversos planos temos até sem vistoria, assim como no seguro de autos, nos seguros residenciais também existe a assistência 24horas, que garantem chaveiro, mão de obra especializada entre outros.
+                                            Dentre os diversos planos temos até sem vistoria. Assim como no seguro de autos, nos seguros residenciais também existe a assistência 24 horas, que garantem chaveiro, mão de obra especializada entre outros.
                                             Faça sua cotação conosco e descubra qual seguro é o Certo para sua residência.
                                         </p>
                                     </Card.Body>
